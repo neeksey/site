@@ -1,0 +1,79 @@
+/*импорт шрифта*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+
+/*основные настройки*/
+body {
+    background: linear-gradient(107.42deg, #1612DD -6.03%, #595CFF -6.02%, #C6F8FF 120.78%);
+    background-repeat: no-repeat;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    margin: 0 auto;
+    padding: 20px 70px;
+}
+
+/*шапка: меню + логотип + кнопка*/
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*картинка + надпись гуу*/
+.logo {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+/*логотип в шапке*/
+.header__logo {
+    width: 123px;
+    height: 91px;
+    background-image: url(../images/logo.png);
+    background-repeat: no-repeat;
+}
+
+/*надпись гуу в шапке*/
+.header__link_logo {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+/*ссылки в меню*/
+.header__list {
+    padding-left: 0;
+    display: flex;
+    list-style-type: none;
+    gap: 40px;
+    font-size: 20px;
+}
+
+/*пункты меню без кнопки*/
+.header__link {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+/*кнопка меню*/
+.header__link_btn {
+    max-width: 200px;
+    background-color: #fff;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #7888FF;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+}
+
+/*пункты меню + кнопка*/
+.header__nav {
+    display: flex;
+    gap: 40px;
+}
